@@ -2,8 +2,9 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/msgreader_demo2/",
+  "homepage": "/msgreader_demo3/",
   "dependencies": {
+    "@kenjiuno/decompressrtf": "^0.1.4",
     "@kenjiuno/msgreader": "^1.20.0-alpha.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -13,11 +14,14 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "buffer": "^6.0.3",
+    "iconv-lite": "^0.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "rtf-stream-parser": "^3.6.0",
     "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
+    "web-vitals": "^2.1.0",
+    "stream": "npm:stream-browserify@3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
